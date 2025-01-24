@@ -1,12 +1,14 @@
-let str1= "Ishika";
-let str2 = " Dhingra";
-
-let str3 = str1 + str2 ;
-console.log(str3);
-//  string concatenation
-console.log(null > 0)
-console.log(null == 0)
-
-console.log(null <= 0)
-
+let value = 3
+let negValue = -value
+// console.log(negValue);
+// console.log(1+1);
+// console.log(1-1);
+// console.log(1*1);
+// console.log(1**3);
+// console.log(1/3);
+// console.log(1%3);
+console.log("1"+2);
+console.log(1+"2");
+console.log(1+2+"4");
+console.log("2"+"2"+4);
 
