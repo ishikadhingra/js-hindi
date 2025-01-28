@@ -1,6 +1,7 @@
 // object.create is used for constructor
 // object literals {}
 // obj.email is not the correct way apply ["email"]
+//Object.create constructor method
 const mysym = Symbol("key1")
 const myobj = {
 name : "Ishika Dhingra",
@@ -14,8 +15,9 @@ email: "ishikadhingra9924@gmail.com",
 
 
 }
-// console.log(myobj);
-myobj.email= "drishti123@gmail.com"
-object.freeze(myobj)
-myobj.email= "sahil123@gmail.com"
-console.log(myobj);
+// console.log(myobj["email"])
+// console.log(myobj[mysym])
+myobj.email = "ishikadhingra9924@gmail.com"
+Object.isFrozen(myobj)
+myobj.email = "dhrishti@2025gmail.com"
+console.log(myobj)
