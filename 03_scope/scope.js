@@ -1,21 +1,48 @@
-var b = 300;
+
+let a = 300
 if(true){
-    let a = 4;
-    var b = 3;
-    const c= 6;  
 
-   
+let a = 10
+const b= 20
+// console.log(a)
+
+ 
 }
+// console.log(a)
 
-// console.table([b]);
-// console.log(one(7));
-function one(num){
-return num +1
+// console.log(b)
+// console.log(c)
+function one(){
+    const username = "Ishika"
+
+
+function two(){
+    const website = "youtube"
+    // console.log(username);
 }
-
-
-const add = function (num){
-return num +2
+// console.log(website);
+two()
 }
-console.log(add(10))
-// hoisting in js function ko variable m hold krana
+one()
+if(true){
+const username = "ishika"
+if(username === "ishika"){
+    const website = "youtube"
+    // console.log(username+website)
+}
+// console.log(website);
+}
+// console.log(username);
+console.log(addOne(4))
+function addOne (num){
+    return num +1
+} 
+console.log(addTwo(10))
+
+const addTwo = function(num){
+    return num+2
+
+}
+//hoisting and closure
+
+
