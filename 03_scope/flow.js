@@ -19,10 +19,10 @@ const userLoggedIn = true
 const debitcard = true
 const loggedInfromGoogle = true
 const loggedInfromEmail = false
-if(userLoggedIn && debitcard && 2==3){
+if(userLoggedIn && debitcard && 2==2){
 console.log("allow to buy course");
 
 }
-if(loggedInfromGoogle || loggedInfromEmail){
-console.log("User logged in")
-}
+// if(loggedInfromGoogle || loggedInfromEmail){
+// console.log("User logged in")
+// }
